@@ -1,2 +1,6 @@
-target/test-classes
-target/tmp
+**/target/
+*.md
+*.log
+*.iml
+.idea/
+.git/
