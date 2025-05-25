@@ -1,3 +1,3 @@
-# GroceryMart - Railway Deployment
+# GroceryMart - Render Deployment
 
-This folder contains files to deploy GroceryMart using Docker on Railway.
+This folder contains files to deploy GroceryMartJava using Docker on Render.
