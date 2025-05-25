@@ -9,7 +9,7 @@
     <version>1.0</version>
     <packaging>war</packaging>
 
-    <name>GroceryMart</name>
+    <name>ROOT</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
