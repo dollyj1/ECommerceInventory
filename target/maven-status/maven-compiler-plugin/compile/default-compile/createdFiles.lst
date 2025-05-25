@@ -1,0 +1,14 @@
+com\inventory\ecommerceinventory\LoginServlet.class
+com\inventory\ecommerceinventory\CheckoutServlet.class
+com\inventory\ecommerceinventory\PaymentServlet.class
+com\inventory\ecommerceinventory\ProductServlet.class
+com\inventory\ecommerceinventory\UpdateProductServlet.class
+com\inventory\ecommerceinventory\resources\JavaEE8Resource.class
+com\inventory\ecommerceinventory\RegisterServlet.class
+com\inventory\ecommerceinventory\UpdateCartServlet.class
+com\inventory\ecommerceinventory\DeleteProductServlet.class
+com\inventory\ecommerceinventory\ChartServlet.class
+com\inventory\ecommerceinventory\CartServlet.class
+com\inventory\ecommerceinventory\SalesServlet.class
+com\inventory\ecommerceinventory\DBConnection.class
+com\inventory\ecommerceinventory\JAXRSConfiguration.class
