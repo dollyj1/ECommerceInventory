@@ -4,12 +4,12 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.grocerymart</groupId>
-    <artifactId>GroceryMart</artifactId>
-    <version>1.0</version>
+    <groupId>com.inventory</groupId>
+    <artifactId>ECommerceInventory</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
 
-    <name>ROOT</name>
+    <name>ECommerceInventory</name>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
@@ -18,7 +18,7 @@
     </properties>
 
     <dependencies>
-        <!-- ✅ Java EE APIs for Servlet/JSP -->
+        <!-- ✅ Java EE APIs (Servlets, JSP, etc.) -->
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-api</artifactId>
@@ -32,19 +32,16 @@
             <artifactId>mysql-connector-java</artifactId>
             <version>8.0.33</version>
         </dependency>
-
-        <!-- ✅ JFreeChart for Analytics -->
         <dependency>
-            <groupId>org.jfree</groupId>
-            <artifactId>jfreechart</artifactId>
-            <version>1.5.4</version>
-        </dependency>
+    <groupId>org.jfree</groupId>
+    <artifactId>jfreechart</artifactId>
+    <version>1.5.4</version>
+</dependency>
     </dependencies>
 
     <build>
-        <finalName>GroceryMart</finalName> <!-- ✅ Clean WAR file name -->
         <plugins>
-            <!-- Compiler Plugin -->
+            <!-- ✅ Java Compiler Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -55,7 +52,7 @@
                 </configuration>
             </plugin>
 
-            <!-- WAR Plugin -->
+            <!-- ✅ WAR Plugin -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-war-plugin</artifactId>
